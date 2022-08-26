@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let ngoiSao = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe ", "Regulus"];
+    let chomSao = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+    let checkNgoiSao= prompt('Mời bạn nhập tên ngôi sao :');
+    check(checkNgoiSao)
+    function check(timKiemNgoiSao) {
+        for (let i = 0; i < ngoiSao.length; i++) {
+            if(ngoiSao[i] == timKiemNgoiSao){
+                alert('Chòm sao của ngôi sao đó là : '+ chomSao[i]);
+            }
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [1,2,3,4,5,6,7]
+    let max=mang[0]
+    let i =1
+    let sum = 0
+    for (; i < mang.length; i++) {
+        if (max < mang[i]) {
+            max = mang[i];
+        }
+        sum += mang[i]
+    }
+    let avg = sum / mang.length;
+    alert("Phan tu lon nhat trong mang la: " + max + " o vi tri thu " + i + " va gia tri trung binh cua mang la: " + avg);
+</script>
+
+</body>
+</html>

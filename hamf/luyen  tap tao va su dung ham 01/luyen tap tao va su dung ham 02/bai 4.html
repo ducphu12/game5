@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nhap = prompt("Nhập Kí Tự: ");
+
+    function kiemTra() {
+        for (let i = 0; i < 10; i++) {
+            if (nhap == i) {
+                alert("Number");
+                return false;
+            }
+        }
+        return true;
+    }
+    if (kiemTra()){
+        alert("Kí tự");
+    }
+</script>
+</body>
+</html>

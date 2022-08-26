@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>quan_ly_san_pham</title>
+</head>
+
+<body>
+Add new product
+<input id="add" placeholder="New product">
+
+<button onclick="add_to_products(), displayProducts()">ADD</button>
+
+<br><br>
+<div id="display"></div>
+
+</body>
+<script>
+  let products = [];
+
+  function add_to_products() {
+    let add_product = document.getElementById('add').value;
+    products.push(add_product);
+  }
+
+  let display = document.getElementById('display');
+
+  function displayProducts() {
+    display.innerHTML = '';
+    for (let i = 0; i < products.length; i++) {
+      display.innerHTML +=   i + 1 + "<input type='text' value=' " + products[i] + "'>" +
+              "<button onclick='editProduct(this.id)' type='button' id= " + i + "  >EDIT</button>" +
+              "<button onclick='deleteProduct(this.id)' type='button' id= " + i + "  >DEL</button>";
+      display.innerHTML += "<br><br>";
+    }
+  }
+
+  function deleteProduct(id) {
+    products.splice(id, 1);
+    console.log(products);
+    displayProducts();
+  }
+
+  function editProduct(id) {
+    let newProduct = prompt('change the product');
+    products[id] = newProduct;
+    displayProducts();
+  }
+
+
+</script>
+</html>

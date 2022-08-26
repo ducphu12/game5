@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+    function isPrime(N) {
+      if(N < 2){
+        return false;
+      }
+      for (let i = 2; i < (N-1); i++){
+        if (N % i === 0){
+          return false;
+        }
+      }
+      return true;
+    }
+    let a = [];
+    for(let i = 0; i < 10000; i++){
+      if (isPrime(i) === true){
+        a.push(i);
+      }
+    }
+    document.write(a);
+  </script>
+</body>
+</html>

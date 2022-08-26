@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+function inputAndShowString(str) {
+do {
+str = prompt('nhap vao 1 tu')
+} while (str.length < 2);
+document.write(str)
+return str;
+}
+function xoaPTDauCuoi(str) {
+let strNew = '';
+let last = str.length - 1;
+for (let i = 1; i < last; i ++){
+strNew += str[i]
+}
+return strNew;
+}
+function isPalindrome(str) {
+let length = str.length;
+if (str[0] === str[length - 1]){
+while (length > 1){
+str = xoaPTDauCuoi(str);
+return isPalindrome(str);
+} return true;
+} else
+return false;
+}
+let string = ''
+string = inputAndShowString(string);
+document.write('<br>');
+document.write('result: ' + isPalindrome(string));
+
+</script>
+
+
+  </body>
+</html>

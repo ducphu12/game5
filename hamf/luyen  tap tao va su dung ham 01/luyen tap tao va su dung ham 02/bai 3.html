@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function giaiThua(number) {
+        if (number == 1) {
+            return 1;
+        }
+        return number * giaiThua(number - 1);
+    }
+
+    let nhap = parseInt(prompt("Số: ?"));
+    if (nhap > 0) {
+        alert("Giai Thừa của " + nhap + " là " + giaiThua(nhap))
+    } else {
+        alert("Hãy nhập số nguyên dương")
+    }
+</script>
+
+</body>
+</html>

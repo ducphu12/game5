@@ -1,0 +1,30 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+  background-image:url("https://t1.pixers.pics/img-c676e9e9/posters-city-landscape.jpg?H4sIAAAAAAAAA42PW07EMAxFt9NKae0kTpN2AfM7S6jymqHQl5ICI1ZPCog_JOQPP2Sf6wuva7a3CD6uR0ywTCHMEW7TXLo8pJinj1ghk72qhzKdK0Ssh-0tJp-2vSLWcClY1xFTwtTDuy13i00v1dNx7HkAyLLdp0eBleQz-CWDQK4BDajeWB9d0D23YtybfNg12BQajY1-KGz39c7wjP-DDXAE5QJ3nTMByZlRCCyw5pfwhSXUjLQ50T8mNSLTp7kjTUtV3G5l-6ie93sNf2h-11Cu4HIFovIAoAZB52i8XIkEohY0mpsIHLmT6IgiKovedKETgWQvZO_bovIJPfcS0YoBAAA=") ;
+}
+.container {
+    display: grid;
+    grid-template-columns: 320px 200px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#board {
+    border: 2px solid black;
+}
+
+.play-btn {
+    background-color: greenyellow;
+    font-size: 16px;
+    padding: 15px 30px;
+    cursor: pointer;
+}

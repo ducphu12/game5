@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.background {
+    height: 100vh;
+    width: 100vw;
+    background-color: skyblue;
+}
+
+.bird {
+    height: 100px;
+    width: 160px;
+    position: fixed;
+    top: 40vh;
+    left: 30vw;
+    z-index: 100;
+}
+
+.pipe_sprite {
+    position: fixed;
+    top: 40vh;
+    left: 100vw;
+    height: 70vh;
+    width: 6vw;
+    background-color: green;
+}
+
+.message {
+    position: fixed;
+    z-index: 10;
+    height: 10vh;
+    font-size: 10vh;
+    font-weight: 100;
+    color: black;
+    top: 12vh;
+    left: 20vw;
+    text-align: center;
+}
+
+.score {
+    position: fixed;
+    z-index: 10;
+    height: 10vh;
+    font-size: 10vh;
+    font-weight: 100;
+    color: goldenrod;
+    top: 0;
+    left: 0;
+}
+
+.score_val {
+    color: gold;
+}
+
+
+#back:hover {
+    text-decoration: underline;
+    color: lightcoral;
+    cursor: pointer;
+    font-size: 55px;
+}
+#enhanceStrength {
+    left:10%;
+}
+#fourLeaf {
+    left:25%;
+
+}
+
+#addStoneValue {
+    left:40%;
+}
+
+#addDiamondValue {
+    left:55%;
+}
+
+#bom {
+    left:70%;
+}
+
+.price {
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    top:50%;
+    line-height:100%;
+    /*text-align: center;*/
+    transition: opacity 1s;
+}
+
+#enhancePrice {
+    left:10%;
+}
+#leafPrice {
+    left:25%;
+}
+#stonePrice {
+    left:40%;
+}
+#diamondPrice {
+    left:55%;
+}
+#bomPrice {
+    left:70%;
+}
+
+#shopLine {
+    position:absolute;
+    /*width: 700px;*/
+    left:30%;
+    top:63%;
+    width:40%;
+    line-height:100%;
+    height:10%;
+    font-size:40px;
+    color:lightcyan;
+    /*text-align: center;*/
+    /*height: 20%;*/
+    transition: opacity 1s;
+    color:lightcyan;
+    /*line-height:10%;*/
+}
+#nextLevel {
+    position:absolute;
+    top: 10%;
+    color:#794044;
+    left: 75%;
+    width: 300px;
+    height: 100px;
+    font-size:40px;
+    line-height:100%;
+    transition: opacity 1s;
+}
+
+#nextLevel:hover {
+    color: #794044;
+    cursor: pointer;
+    font-size: 55px;
+}
+#bg {
+    width:98vw;
+    height:97vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:background 1s;
+}
+#gameLoseBoard {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+#gameLose {
+    position: absolute;
+    /*text-align:center;*/
+    top: -40%;
+    font-size: 60px;
+    width: 100%;
+    left:0%;
+    height: 20%;
+}
+
+#score {
+    position: absolute;
+    width: 90%;
+    left:5%;
+    height: 20%;
+    line-height: 100%;
+    top: 30%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    color: gray;
+}
+
+#restart {
+    position: absolute;
+    width: 60%;
+    left:20%;
+    height: 15%;
+    top:75%;
+    line-height:180%;
+    border: 5px solid white;
+    border-radius:15px;
+}
+
+#restart:hover {
+    color: lightcoral;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.virtual_key {
+    position: absolute;
+    border: 3px solid gray;
+    color: gray;
+    line-height: 180%;
+    width: 6%;
+    height: 5%;
+    /*background-color: lightgray;*/
+    text-align: center;
+    border-radius: 8px;
+    transition: opacity 2s;
+}
+
+.virtual_key:hover {
+    /*background-color: gray;*/
+    color: lightcoral;
+    cursor: pointer;
+}
+
+#key_W {
+    left: 20%;
+    top: 2%;
+}
+
+#key_S {
+    left: 20%;
+    top: 9%;
+}
+
+#key_up {
+    left: 27%;
+    top: 2%;
+}
+
+#key_down {
+    left: 27%;
+    top: 9%;
+}
+
+#exit_level {
+    left: 86%;
+    top: 2%;
+    height: 10%;
+    line-height: 180%;
+    width: 7%;
+    vertical-align: middle;
+}
+
+#pause {
+    left: 95%;
+    top: 4%;
+    width: 2%;
+    height:10%;
+    border:none;
+    font-size:larger;
+    font-weight:900;
+}
+
+#pause_animation {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 70%;
+    height: 60%;
+    /*line-height: 100%;*/
+    font-size: 300px;
+    color: white;
+    transition: opacity 1s;
+}
+
+
+#money {
+    position:absolute;
+    top:80%;
+    left:10%;
+    width:80%;
+    height:10%;
+    color:white;
+    line-height:100%;
+    font-size:55px;
+}
+#shopName {
+    color:#00afe8;
+    font-size:55px;
+    position:absolute;
+    top:5%;
+    left:30%;
+    width:40%;
+    height:10%;
+    line-height:100%;
+}
+.tool:hover {
+    opacity:0.5;
+    cursor:pointer;
+
+}
+.tool {
+    opacity:1;
+    width:15%;
+    height:20%;
+    position:absolute;
+    line-height:100%;
+    top:30%;
+    transition: opacity 1s;
+}

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c570187c-0312-43b9-bba3-ce7f5d79c638" name="Changes" comment="done" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2CjgMBFbBUY7GwjubWgr0KTiJQA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Fraps/fs&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\duc phu\WebstormProjects\helloWorld\hamf\lam game" />
+      <recent name="C:\Users\duc phu\WebstormProjects\helloWorld\abc" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/helloWorld/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c570187c-0312-43b9-bba3-ce7f5d79c638" name="Changes" comment="" />
+      <created>1659321358621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659321358621</updated>
+      <workItem from="1659321360052" duration="3450000" />
+      <workItem from="1659325223867" duration="1197000" />
+      <workItem from="1659326552339" duration="11153000" />
+      <workItem from="1659347076867" duration="2322000" />
+      <workItem from="1659359407449" duration="193000" />
+      <workItem from="1659368218184" duration="1330000" />
+      <workItem from="1659402826859" duration="2791000" />
+      <workItem from="1659407004929" duration="7699000" />
+      <workItem from="1659422108861" duration="2069000" />
+      <workItem from="1659424210931" duration="10505000" />
+      <workItem from="1659489286961" duration="6670000" />
+      <workItem from="1659498188705" duration="11753000" />
+      <workItem from="1659517172173" duration="1900000" />
+      <workItem from="1659544453141" duration="2137000" />
+      <workItem from="1659573890748" duration="8243000" />
+      <workItem from="1659594611670" duration="4888000" />
+      <workItem from="1659601822356" duration="892000" />
+      <workItem from="1659665431401" duration="12368000" />
+      <workItem from="1659890125721" duration="132000" />
+      <workItem from="1659925654279" duration="4875000" />
+      <workItem from="1659940671620" duration="10899000" />
+      <workItem from="1660007278129" duration="12366000" />
+      <workItem from="1660028943570" duration="5917000" />
+      <workItem from="1660093879025" duration="4148000" />
+      <workItem from="1660113816059" duration="4841000" />
+      <workItem from="1660175852361" duration="1842000" />
+      <workItem from="1660182752834" duration="3496000" />
+      <workItem from="1660199639142" duration="2474000" />
+      <workItem from="1660267816353" duration="6661000" />
+      <workItem from="1660286827312" duration="3529000" />
+      <workItem from="1660527358854" duration="1815000" />
+      <workItem from="1660548133621" duration="1356000" />
+      <workItem from="1660612590998" duration="11590000" />
+      <workItem from="1660634338319" duration="3806000" />
+      <workItem from="1660707465108" duration="7198000" />
+      <workItem from="1660741923325" duration="5000" />
+      <workItem from="1660784814506" duration="3249000" />
+      <workItem from="1660805172831" duration="2080000" />
+      <workItem from="1660808747007" duration="2394000" />
+      <workItem from="1660862714201" duration="1288000" />
+      <workItem from="1660873443918" duration="7834000" />
+      <workItem from="1660896106392" duration="4391000" />
+      <workItem from="1661080799131" duration="3000" />
+      <workItem from="1661091602576" duration="2000" />
+      <workItem from="1661130583862" duration="16387000" />
+      <workItem from="1661222942727" duration="4510000" />
+      <workItem from="1661306837987" duration="13791000" />
+      <workItem from="1661390012275" duration="12497000" />
+      <workItem from="1661476631364" duration="4882000" />
+      <workItem from="1661498936525" duration="3357000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+</project>

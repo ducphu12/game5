@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  // let arr =[
+  //    [-1,-2,-3]
+ //     [-6,-7,-8]
+ // ]
+ // console.log(arr[1][4])
+//      for (let j = 0; j < arr[i].length; j++) {
+ //         document.write(arr[i][j] + "")
+ //     }
+ //     document.write('<br>')
+ // }let inp = prompt('nhap vao so can tim:')
+ // for (let i=0;i= < arr.length ;i++){
+  //    for(let j = 0;j < arr[i].length;j++){
+    //      if (inp == arr[i][j]){
+   //           indexI = i;
+   //           indexJ =j;
+    //      }
+    //  }
+ // }
+// tinh tong va tinh tich cac phan tu chia het cho 3 //
+  // dem cac phan tu chia 5 du 1 //
+  // tim max //
+  // tim vi tri cua so nhap vao //
+  let sum = 0;
+  let dem = 0;
+  let mul = 1;
+  let max = arr [0][0];
+  for (let i = 0; i < arr.length;i++) {
+      for (let j = 0; j < arr[i].length; j++)
+          if (arr[i] [j]%3==0){
+              sum += arr[i][j];
+              mul *= arr[i][j];
+          }
+      if(arr[i][j] % 5 == 1) {
+          dem += 1
+      }
+      if (arr[i][j]>max){
+          max = arr[i][j];
+      }
+      }
+  alert(sum + '-' + mul + '-' + dem + '-' + max)
+
+
+
+</script>
+
+</body>
+</html>

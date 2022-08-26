@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function ChuVi(r) {
+        let c = r * 3.14 * 2;
+        return c;
+    }
+
+    function DienTich(r) {
+        let s = r * r * 3.14;
+        return s;
+    }
+
+    let nhap = parseFloat(prompt("Bán Kính hình tròn là: "));
+    if (nhap > 0) {
+        alert("Chu vi: " + ChuVi(nhap) + "," + "Diện Tích: " + DienTich(nhap));
+    } else {
+        alert("Bán kính phải dương");
+    }
+</script>
+
+</body>
+</html>
